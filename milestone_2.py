@@ -31,7 +31,7 @@ def guess_letter():
 
 
 # %%
-guess_1 = guess_letter()
+#guess_1 = guess_letter()
 
 
 # %%
