@@ -4,3 +4,5 @@
 word_list  = ['Blueberry', 'Lemon', 'Banana', 'Satsuma', 'Apple']
 
 # %%
+# Print out word list 
+print(word_list)
