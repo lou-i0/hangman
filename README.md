@@ -16,13 +16,17 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 The  project game is built into the following steps:
 1. A word list is created of 5 fruits in which to use as the word to guess.
 1. Then, we ask the user to make a guess on a single alphabetical letter 
-1. blah
+1. If the guessed letter is found in the word, then great! If not, we will ask to try and guess again.
 
 ## Installation Instructions
-Something to be placed here about how a user can download install, and play the hangman game.
+some thing about how to install it 
 
 ## Project File Structure
-Some words here about how the file is laid out , so the user knows what is where and how to interact with it.
+Currently there are two files:
+1. milestone_2.py
+    - Used mainly to create a list , and randomly choose a word from that list 
+1. milestone_3.py
+    - Used to ask the user of guess and check it is in the selected word.
 
 ## License Information
 Some text here about the license this project is under, and what (if any) implications it may on the use of it. 

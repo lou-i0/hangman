@@ -19,18 +19,19 @@ word = random.choice(word_list)
 print(word)
 
 # %%
-#  create function to ask user for single letter 
-def guess_letter():
-    guess = input('Please guess a alphabetical letter: ')
+#  create function to ask user for single letter - Not used as it is in milestone_3.py
+# def guess_letter():
+#     guess = input('Please guess a alphabetical letter: ')
 
-    if len(guess) == 1 and guess.isalpha() == True:
-        print(f'Thank you, you have entered {guess}. Good guess!')
-    else:
-        print(f'Oops! That is not a valid input. {guess} is not a single alphabetical letter')
-    return guess
+#     if len(guess) == 1 and guess.isalpha() == True:
+#         print(f'Thank you, you have entered {guess}. Good guess!')
+#     else:
+#         print(f'Oops! That is not a valid input. {guess} is not a single alphabetical letter')
+#     return guess
 
 
 # %%
+#- Not used as it is in milestone_3.py
 #guess_1 = guess_letter()
 
 
