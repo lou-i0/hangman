@@ -1,5 +1,6 @@
 # Script is used to iteratively check if the input asked for is a valid guess.
 # %% 
+# %% import code from the second milestone (milestone_2.py)
 import milestone_2 as m2
 
 # %%
@@ -25,6 +26,8 @@ def ask_for_input():
             break
         else:
             print(f'Invalid letter. Please, enter a single alphabetical character.')
+    
+    # Call check_guess function, to see if guessed letter found in word chosen.
     check_guess(guess)
 
 
